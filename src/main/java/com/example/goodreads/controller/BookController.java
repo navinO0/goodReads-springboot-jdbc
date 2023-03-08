@@ -9,13 +9,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
 
 import com.example.goodreads.model.Book;
-import com.example.goodreads.service.BookService;
+import com.example.goodreads.service.BookH2Service;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
 
 @RestController
 class BookController {
-    BookService bookService = new BookService();
+    @Autowired
+
+    public BookH2Service bookService;
 
     @GetMapping("/books")
     public ArrayList<Book> getBooks() {

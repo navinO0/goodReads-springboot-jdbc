@@ -1,0 +1,30 @@
+2023-03-08 19:36:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:38:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:39:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:44:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:45:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:45:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 19:46:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO book(name, imageUrl) values(?,?)[*])"; SQL statement:
+INSERT INTO book(name, imageUrl) values(?,?)) [42000-214]
+2023-03-08 20:00:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into book(name, imageUrl)  values(?,?)[*])"; SQL statement:
+insert into book(name, imageUrl)  values(?,?)) [42000-214]
+2023-03-08 20:05:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into book (name, imageUrl)  values ( ? , ? )[*]);"; SQL statement:
+insert into book (name, imageUrl)  values ( ? , ? )); [42000-214]
+2023-03-08 20:11:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into book (name, imageUrl)  values ( ? , ? )[*]);"; SQL statement:
+insert into book (name, imageUrl)  values ( ? , ? )); [42000-214]
